@@ -1,446 +1,442 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .hero {
-    position: relative;
-    text-align: end;
-    color: black;
-    font-size: 4vmax;
+  position: relative;
+  text-align: end;
+  color: black;
+  font-size: 4vmax;
 }
 
 .hero img {
-    width: 100%;
+  width: 100%;
 }
 
 .hero-text {
-    position: absolute;
-    bottom: 8vmax;
-    right: 50px;
-    font-family: 'Bebas Neue', cursive;
+  position: absolute;
+  bottom: 8vmax;
+  right: 50px;
+  font-family: "Bebas Neue", cursive;
 }
 
 .section-1 {
-    position: relative;
-    text-align: end;
-    color: black;
-    font-size: 2vmax;
-    margin-top: -17px;
+  position: relative;
+  text-align: end;
+  color: black;
+  font-size: 2vmax;
+  margin-top: -17px;
 }
 
 .section-1 img {
-    width: 100%;
+  width: 100%;
 }
 
 .form-order {
-    position: absolute;
-    padding: 17vmax 7.9vmax;
-background-image: url(img/landingpage3.svg);
-background-size: cover;
-bottom: 8vmax;
-left: 57vmax;
+  position: absolute;
+  padding: 17vmax 7.9vmax;
+  background-image: url(img/LANDING-PAGE-3.png);
+  background-size: cover;
+  bottom: 8vmax;
+  left: 57vmax;
 }
 
 .section1-text {
-    position: absolute;
-    bottom: 20vmax;
-    right: 45vmax;
-    font-size: 2.5vmax;
+  position: absolute;
+  bottom: 20vmax;
+  right: 45vmax;
+  font-size: 2.5vmax;
 }
 
 .panah1 {
-    position: absolute;
-    padding: 1.5vmax 3.5vmax;
-    background-image: url(img/panah.png);
-    background-size: cover;
-    bottom: 25vmax;
-    left: 50vmax;
+  position: absolute;
+  padding: 1.5vmax 3.5vmax;
+  background-image: url(img/panah.png);
+  background-size: cover;
+  bottom: 25vmax;
+  left: 50vmax;
 }
 .section-2 {
-    position: relative;
-    text-align: start;
-    color: black;
-    font-size: 2vmax;
-    margin-top: -17px;
+  position: relative;
+  text-align: start;
+  color: black;
+  font-size: 2vmax;
+  margin-top: -17px;
 }
 
 .section-2 img {
-    width: 100%;
+  width: 100%;
 }
 
 .live-chat {
-    position: absolute;
-    padding: 17vmax 7.9vmax;
-background-image: url(img/LANDINGPAGE5.svg);
-background-size: cover;
-bottom: 8vmax;
-left: 32vmax;
+  position: absolute;
+  padding: 17vmax 7.9vmax;
+  background-image: url(img/LANDINGPAGE5.svg);
+  background-size: cover;
+  bottom: 8vmax;
+  left: 32vmax;
 }
 
 .section2-text {
-    position: absolute;
-    bottom: 18vmax;
-    right: 20vmax;
-    font-size: 2.5vmax;
+  position: absolute;
+  bottom: 18vmax;
+  right: 20vmax;
+  font-size: 2.5vmax;
 }
 
 .panah2 {
-    position: absolute;
-    padding: 1.5vmax 3.5vmax;
-    background-image: url(img/panah.png);
-    background-size: cover;
-    bottom: 25vmax;
-    left: 50vmax;
-    transform: scaleX(-1);
+  position: absolute;
+  padding: 1.5vmax 3.5vmax;
+  background-image: url(img/panah.png);
+  background-size: cover;
+  bottom: 25vmax;
+  left: 50vmax;
+  transform: scaleX(-1);
 }
 
 .balon {
-    position: absolute;
-    padding: 1.7vmax 9vmax;
-    background-image: url(img/live-chat1.png);
-    background-size: cover;
-    bottom: 32vmax;
-    right: 32vmax;
+  position: absolute;
+  padding: 1.7vmax 9vmax;
+  background-image: url(img/live-chat1.png);
+  background-size: cover;
+  bottom: 32vmax;
+  right: 32vmax;
 }
 
 .balon2 {
-    position: absolute;
-    padding: 1.9vmax 9vmax;
-    background-image: url(img/live-chat2.png);
-    background-size: cover;
-    bottom: 28vmax;
-    left: 12.5vmax;
+  position: absolute;
+  padding: 1.9vmax 9vmax;
+  background-image: url(img/live-chat2.png);
+  background-size: cover;
+  bottom: 28vmax;
+  left: 12.5vmax;
 }
 
 .section-3 {
-    position: relative;
-    text-align: start;
-    color: black;
-    font-size: 2vmax;
-    margin-top: -17px;
+  position: relative;
+  text-align: start;
+  color: black;
+  font-size: 2vmax;
+  margin-top: -17px;
 }
 
 .section-3 img {
-    width: 100%;
+  width: 100%;
 }
 
 .wa-confirm {
-    position: absolute;
-    padding: 17vmax 7.9vmax;
-background-image: url(img/LANDINGPAGE9.svg);
-background-size: cover;
-bottom: 8vmax;
-left: 60vmax;
+  position: absolute;
+  padding: 17vmax 7.9vmax;
+  background-image: url(img/LANDINGPAGE9.svg);
+  background-size: cover;
+  bottom: 8vmax;
+  left: 60vmax;
 }
 
 .section3-text {
-    position: absolute;
-    bottom: 18vmax;
-    right: 50vmax;
-    font-size: 2.5vmax;
+  position: absolute;
+  bottom: 18vmax;
+  right: 50vmax;
+  font-size: 2.5vmax;
 }
 
 .panah3 {
-    position: absolute;
-    padding: 1.5vmax 3.5vmax;
-    background-image: url(img/panah.png);
-    background-size: cover;
-    bottom: 25vmax;
-    left: 50vmax;
+  position: absolute;
+  padding: 1.5vmax 3.5vmax;
+  background-image: url(img/panah.png);
+  background-size: cover;
+  bottom: 25vmax;
+  left: 50vmax;
 }
 
 .balon3 {
-    position: absolute;
-    padding: 2.2vmax 9vmax;
-    background-image: url(img/wa-confirm1.png);
-    background-size: cover;
-    bottom: 32vmax;
-    right: 40vmax;
+  position: absolute;
+  padding: 2.2vmax 9vmax;
+  background-image: url(img/wa-confirm1.png);
+  background-size: cover;
+  bottom: 32vmax;
+  right: 40vmax;
 }
 
 .section-4 {
-    position: relative;
-    text-align: end;
-    color: black;
-    font-size: 2vmax;
-    margin-top: -17px;
+  position: relative;
+  text-align: end;
+  color: black;
+  font-size: 2vmax;
+  margin-top: -17px;
 }
 
 .section-4 img {
-    width: 100%;
+  width: 100%;
 }
 
 .shop-detail {
-    position: absolute;
-    padding: 17vmax 7.9vmax;
-background-image: url(img/shop-detail.png);
-background-size: cover;
-bottom: 8vmax;
-left: 27vmax;
+  position: absolute;
+  padding: 17vmax 7.9vmax;
+  background-image: url(img/shop-detail.png);
+  background-size: cover;
+  bottom: 8vmax;
+  left: 27vmax;
 }
 
 .section4-text {
-    position: absolute;
-    bottom: 18vmax;
-    right: 25vmax;
-    font-size: 2.5vmax;
+  position: absolute;
+  bottom: 18vmax;
+  right: 25vmax;
+  font-size: 2.5vmax;
 }
 
 .panah4 {
+  position: absolute;
+  padding: 1.5vmax 3.5vmax;
+  background-image: url(img/panah.png);
+  background-size: cover;
+  bottom: 28vmax;
+  left: 43vmax;
+  transform: scaleX(-1);
+}
+
+.section-5 {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 2vmax;
+  margin-top: -17px;
+}
+
+.section-5 img {
+  width: 100%;
+  height: 65vmax;
+}
+
+.transfer-confirm {
+  position: absolute;
+  padding: 17vmax 7.9vmax;
+  background-image: url(img/LANDINGPAGE12.svg);
+  background-size: cover;
+  top: 15vmax;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.section5-text {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 1.9vmax;
+}
+
+.endingtext-1 {
+  position: absolute;
+  bottom: 13vmax;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 1.9vmax;
+}
+.endingtext-2 {
+  position: absolute;
+  bottom: 11vmax;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 1.9vmax;
+}
+
+.cta-text {
+  position: absolute;
+  bottom: 7vmax;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 1.9vmax;
+}
+
+.cta-button {
+  position: absolute;
+  bottom: 2vmax;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: black;
+  display: inline-block;
+  padding: 1vmax 25px;
+  font-size: 2vmax;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+}
+
+.cta-button:hover {
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+.footer {
+  background-color: #0101ca;
+  margin-top: -12px;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.copyright {
+  padding: 8px 8px;
+  background-image: url(img/copyright-regular.svg);
+  background-size: cover;
+  width: 2px;
+  height: 2px;
+  align-content: center;
+  color: white;
+  margin-right: 3px;
+}
+
+.royal {
+  color: white;
+}
+
+@media only screen and (max-width: 652px) {
+  .hero-text {
+    position: absolute;
+    bottom: 4vmax;
+    right: 20px;
+    font-family: "Bebas Neue", cursive;
+  }
+
+  .section-1 img {
+    height: 300px;
+  }
+  .form-order {
+    bottom: 4vmax;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .section1-text {
+    text-align: center;
+    top: 1vmax;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+  }
+  .panah1 {
+    display: none;
+  }
+
+  .section-2 img {
+    height: 300px;
+  }
+  .section2-text {
+    text-align: center;
+    top: 1vmax;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+  }
+
+  .live-chat {
+    bottom: 4vmax;
+    left: 50%;
+    transform: translate(50%, 0);
+  }
+
+  .panah2 {
+    display: none;
+  }
+
+  .section-3 img {
+    height: 300px;
+  }
+
+  .wa-confirm {
+    left: 50%;
+    transform: translate(-130%, 0);
+  }
+
+  .section3-text {
+    text-align: center;
+    width: 100%;
+    left: 50%;
+    transform: translate(-30%, 0);
+    font-size: 2.5vmax;
+    top: 30px;
+  }
+
+  .panah3 {
+    bottom: 30vmax;
+    left: 50%;
+    transform: translate(-10%, 0);
+    transform: scaleX(-1);
+  }
+
+  .balon3 {
+    background-size: cover;
+    bottom: 25vmax;
+    left: 50%;
+    transform: translate(-10%, 0);
+  }
+
+  .section-4 img {
+    height: 300px;
+  }
+
+  .shop-detail {
+    bottom: 8vmax;
+    left: 50%;
+    transform: translate(50%, 0);
+  }
+
+  .section4-text {
+    bottom: 18vmax;
+    right: 25vmax;
+    font-size: 2.5vmax;
+    text-align: center;
+  }
+
+  .panah4 {
     position: absolute;
     padding: 1.5vmax 3.5vmax;
     background-image: url(img/panah.png);
     background-size: cover;
     bottom: 28vmax;
-    left: 43vmax;
-    transform: scaleX(-1);
-}
+    left: 50%;
+    transform: translate(20%, 0);
+  }
 
-.section-5 {
+  .section-5 {
     position: relative;
     text-align: center;
     color: black;
     font-size: 2vmax;
     margin-top: -17px;
-}
+  }
 
-.section-5 img {
+  .section-5 img {
     width: 100%;
     height: 65vmax;
-}
+  }
 
-.transfer-confirm {
+  .transfer-confirm {
     position: absolute;
     padding: 17vmax 7.9vmax;
-background-image: url(img/LANDINGPAGE12.svg);
-background-size: cover;
-top: 15vmax;
-left: 50%;
-transform: translate(-50%, 0);
-}
-
-.section5-text {
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    font-size: 1.9vmax;
-}
-
-.endingtext-1 {
-    position: absolute;
-    bottom: 13vmax;
-    left: 50%;
-    transform: translate(-50%, 0);
-    font-size: 1.9vmax;
-}
-.endingtext-2 {
-    position: absolute;
-    bottom: 11vmax;
-    left: 50%;
-    transform: translate(-50%, 0);
-    font-size: 1.9vmax;
-}
-
-.cta-text {
-    position: absolute;
-    bottom: 7vmax;
-    left: 50%;
-    transform: translate(-50%, 0);
-    font-size: 1.9vmax;
-}
-
-.cta-button {
-    position: absolute;
-    bottom: 2vmax;
-    left: 50%;
-    transform: translate(-50%, 0);
-    background-color: black;
-    display: inline-block;
-    padding: 1vmax 25px;
-    font-size: 2vmax;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #000000;
-    border: none;
-    border-radius: 15px;
-  }
-  
-  .cta-button:hover {
-      background-color: rgba(0, 0, 0, 0.432);
-  }
-
-  .footer {
-    background-color:#0101ca;
-    margin-top: -12px;
-}
-.bottom {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-  }
-
-  .copyright {
-    padding: 8px 8px;
-    background-image: url(img/copyright-regular.svg);
-    background-size: cover;
-    width: 2px;
-    height: 2px;
-    align-content: center;
-    color: white;
-    margin-right: 3px;
-  }
-
-  .royal {
-    color: white;
-  }
-
-  @media only screen and (max-width: 652px) {
-    .hero-text {
-        position: absolute;
-        bottom: 4vmax;
-        right: 20px;
-        font-family: 'Bebas Neue', cursive;
-    }
-    
-
-    .section-1 img{
-        height: 300px;
-    }
-    .form-order {
-        bottom: 4vmax;
-        left: 50%;
-        transform: translate(-50%, 0);
-    }  
-    .section1-text {
-        text-align: center;
-        top: 1vmax;
-        left: 50%;
-        transform: translate(-50%, 0);
-        width: 100%;
-    }
-    .panah1 {
-        display: none;
-    }
-
-    .section-2 img {
-        height: 300px;
-    }
-    .section2-text {
-        text-align: center;
-        top: 1vmax;
-        left: 50%;
-        transform: translate(-50%, 0);
-        width: 100%;
-    }
-
-    .live-chat {
-    bottom: 4vmax;
-    left: 50%;
-    transform: translate(50%, 0);
-    }
-    
-    .panah2{
-        display: none;
-    }
-    
-    .section-3 img {
-        height: 300px;
-    }
-    
-    .wa-confirm {
-
-    left: 50%;
-    transform: translate(-130%, 0);
-    }
-    
-    .section3-text {
-        text-align: center;
-        width: 100%;
-        left: 50%;
-        transform: translate(-30%, 0);
-        font-size: 2.5vmax;
-        top: 30px;
-    }
-    
-    .panah3 {
-        bottom: 30vmax;
-        left: 50%;
-        transform: translate(-10%, 0);
-        transform: scaleX(-1);
-    }
-    
-    .balon3 {
-        background-size: cover;
-        bottom: 25vmax;
-        left: 50%;
-        transform: translate(-10%, 0);
-    }
-    
-    .section-4 img {
-        height: 300px;
-    }
-    
-    
-    .shop-detail {
-    bottom: 8vmax;
-    left: 50%;
-    transform: translate(50%, 0);
-    }
-    
-    .section4-text {
-        bottom: 18vmax;
-        right: 25vmax;
-        font-size: 2.5vmax;
-        text-align: center;
-    }
-    
-    .panah4 {
-        position: absolute;
-        padding: 1.5vmax 3.5vmax;
-        background-image: url(img/panah.png);
-        background-size: cover;
-        bottom: 28vmax;
-        left: 50%;
-        transform: translate(20%, 0);
-    }
-
-    .section-5 {
-        position: relative;
-        text-align: center;
-        color: black;
-        font-size: 2vmax;
-        margin-top: -17px;
-    }
-    
-    .section-5 img {
-        width: 100%;
-        height: 65vmax;
-    }
-    
-    .transfer-confirm {
-        position: absolute;
-        padding: 17vmax 7.9vmax;
     background-image: url(img/LANDINGPAGE12.svg);
     background-size: cover;
     top: 12vmax;
     left: 50%;
     transform: translate(-50%, 0);
-    }
-    
-    .section5-text {
-        position: absolute;
-        top: 10px;
-        left: 50%;
-        transform: translate(-50%, 0);
-        font-size: 1.9vmax;
-        width: 100%;
-    }
-
   }
+
+  .section5-text {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 1.9vmax;
+    width: 100%;
+  }
+}
